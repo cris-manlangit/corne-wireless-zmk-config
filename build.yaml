@@ -21,5 +21,11 @@
 include:
   - board: nice_nano
     shield: corne_left
+    cmake-args:
+    - DCONFIG_ZMK_KEYBOARD_NAME=\"Piplup\"
   - board: nice_nano
     shield: corne_right
+    cmake-args:
+    - DCONFIG_ZMK_KEYBOARD_NAME=\"Piplup\"
+  - board: nice_nano
+    shield: settings_reset
