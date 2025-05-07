@@ -27,15 +27,6 @@
             key-positions = <26 27 32 33>;
         };
 
-        left {
-            bindings = <&kp LEFT>;
-            key-positions = <13 14>;
-        };
-
-        right {
-            bindings = <&kp RIGHT>;
-            key-positions = <21 22>;
-        };
     };
 
     keymap {
