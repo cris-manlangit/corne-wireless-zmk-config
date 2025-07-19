@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK  &kp LESS_THAN  &kp GREATER_THAN  &kp DEL
-&trans     &none     &none   &none     &kp UNDERSCORE  &none        &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT      &none             &none
-&none      &none     &none   &none     &none           &none        &none      &none     &none      &none          &none             &none
-                             &none     &none           &none        &none      &none     &none
+&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LESS_THAN  &kp GREATER_THAN  &kp DEL
+&trans     &none     &none   &none     &kp UNDERSCORE  &none        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &none             &none
+&none      &none     &none   &none     &none           &none        &none      &none      &none      &none          &none             &none
+                             &trans    &trans          &kp EQUAL    &none      &kp SPACE  &kp MINUS
             >;
 
             label = "Arrows";
