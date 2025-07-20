@@ -33,10 +33,10 @@
 
         symbols {
             bindings = <
-&kp GRAVE  &kp N1          &kp N2           &kp N3                &kp N4                 &kp N5    &kp N6  &kp N7     &kp N8           &kp N9    &kp N0  &trans
-&kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none     &none   &kp EQUAL  &kp KP_MULTIPLY  &kp BSLH  &trans  &kp SPACE
-&trans     &kp BACKSLASH   &kp SLASH        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none     &none   &kp MINUS  &kp KP_PLUS      &trans    &trans  &trans
-                                            &trans                &kp LSHFT              &kp N0    &none   &none      &none
+&kp GRAVE  &kp N1          &kp N2            &kp N3                &kp N4                 &kp N5    &kp N6  &kp N7     &kp N8           &kp N9    &kp N0         &trans
+&kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none     &none   &kp EQUAL  &kp KP_MULTIPLY  &kp BSLH  &trans         &kp SPACE
+&trans     &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none     &none   &kp MINUS  &kp KP_PLUS      &trans    &kp BACKSLASH  &trans
+                                             &trans                &kp LSHFT              &kp N0    &none   &none      &none
             >;
 
             label = "Symbols";
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LESS_THAN  &kp GREATER_THAN  &kp DEL
-&trans     &none     &none   &none     &kp UNDERSCORE  &none        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT      &none             &none
-&none      &none     &none   &none     &none           &none        &none      &none      &none      &none          &none             &none
-                             &trans    &trans          &kp EQUAL    &none      &kp SPACE  &kp MINUS
+&kp GRAVE         &kp EXCL  &kp AT  &kp HASH  &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp LEFT_CONTROL  &none     &none   &none     &kp UNDERSCORE  &none        &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT             &none                  &none
+&none             &none     &none   &none     &none           &none        &none      &none      &none      &none                 &none                  &none
+                                    &trans    &trans          &kp EQUAL    &none      &kp SPACE  &kp MINUS
             >;
 
             label = "Arrows";
@@ -72,10 +72,10 @@
 
         function {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3      &kp F4      &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &bt BT_CLR
-&none       &none   &none   &bt BT_PRV  &bt BT_NXT  &none     &none   &none   &none   &none   &none    &none
-&none       &none   &none   &none       &none       &none     &none   &none   &none   &none   &none    &none
-                            &none       &none       &none     &none   &none   &none
+&kp ESCAPE  &kp F1  &kp F2  &kp F3      &kp F4      &kp F5    &kp F6  &kp F7    &kp F8    &kp F9  &kp F10  &bt BT_CLR
+&none       &none   &none   &bt BT_PRV  &bt BT_NXT  &none     &none   &kp CAPS  &kp CAPS  &none   &none    &none
+&none       &none   &none   &none       &none       &none     &none   &none     &none     &none   &none    &none
+                            &none       &none       &none     &none   &none     &none
             >;
 
             label = "Fn";
