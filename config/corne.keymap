@@ -35,7 +35,7 @@
             bindings = <
 &kp GRAVE  &kp N1          &kp N2            &kp N3                &kp N4                 &kp N5    &kp N6  &kp N7     &kp N8           &kp N9    &kp N0         &trans
 &kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none     &none   &kp EQUAL  &kp KP_MULTIPLY  &kp BSLH  &trans         &kp SPACE
-&trans     &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none     &none   &kp MINUS  &kp KP_PLUS      &trans    &kp BACKSLASH  &trans
+&trans     &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none     &none   &kp MINUS  &kp LS(EQUAL)    &trans    &kp BACKSLASH  &trans
                                              &trans                &kp LSHFT              &kp N0    &none   &none      &none
             >;
 
